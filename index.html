@@ -48,6 +48,7 @@
 			</div><!-- /sidebar -->
 			
 		<div id="container">
+		
 			<section class="section" id="section1" data-section="1">
 				<div class="container-fluid">	
 					<div class="row-fluid">
@@ -68,7 +69,160 @@
 						
 					</div><!-- /row-fluid -->
 				</div><!-- /container-fluid -->	
-			</section><!-- /section -->
+			</section><!-- / END section 1-->
+			
+			<section class="section" id="section2" data-section="2">
+					<div class="container-fluid">
+						<div class="row-fluid title">
+							<div class="span3">
+								<h2>About</h2>
+							</div><!-- /span3 -->
+							<div class="span9 hidden-phone">	
+								<hr>
+							</div><!-- /span9 -->
+						</div><!-- /row-fluid -->
+						
+						<div class="row-fluid desc">
+							<div class="span8">
+								<p>I am a freelance web developer and web designer living in London, UK. I started freelancing in 2009 and have worked for a wide range of personal clients and agencies.</p>
+								<p>I offer a complete web solution to my clients. I can guide you through the early stages of project planning and research, help you with information architecture and user experience, design your website, and finally build the site for you.</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->
+						
+						<div class="row-fluid content hidden-tablet">
+							<div class="span12 expand">
+								<h4>Life Stats</h4>
+								<div class="row-fluid">
+									<div class="span4">
+									
+									<!-- CHART N 1 -->
+										<script>		
+										jQuery(document).ready(function( $ ) {
+											// Triggering only when it is inside viewport
+											jQuery('.knob-4').waypoint(function(){         		        		        
+												// Triggering now
+										        jQuery('.knob-4').knob();     
+										        // Animating the value
+										        if(jQuery('.knob-4').val() == 0) {	
+											    	jQuery({value: 0}).animate({value: jQuery('.knob-4').attr("rel")}, {
+											        	duration: 5000,
+											        	easing:'swing',
+											        	step: function() 
+												        	{
+													            jQuery('.knob-4').val(Math.ceil(this.value)).trigger('change');
+													        }
+												    	})
+											   	}	        	   	        
+									   	        }
+										        ,{
+										          triggerOnce: true,
+										          offset: function(){
+										            return $(window).height() - $(this).outerHeight(); 
+										          }
+										        }
+									        );    
+										});	        
+										</script>
+
+										<div class="skill">
+											<input data-readonly="true"  data-fgcolor="#f1c40f" data-inputColor="#333" data-width="245" data-height="122.5" class="knob-4" rel="4" value="0" readonly="readonly" data-angleArc="180" data-angleOffset="-90" data-max="10" >
+											<h4 class="visible-phone">4</h4>
+											<h6>cups of cofee per week</h6>
+										</div>
+									<!-- END CHART N 1 -->
+									</div><!-- /span4 -->
+									
+									
+									<div class="span4">
+									<!-- CHART N 2 -->
+										<script>		
+										jQuery(document).ready(function( $ ) {
+											// Triggering only when it is inside viewport
+											jQuery('.knob-65').waypoint(function(){         		        		        
+												// Triggering now
+										        jQuery('.knob-65').knob();     
+										        // Animating the value
+										        if(jQuery('.knob-65').val() == 0) {	
+											    	jQuery({value: 0}).animate({value: jQuery('.knob-65').attr("rel")}, {
+											        	duration: 5000,
+											        	easing:'swing',
+											        	step: function() 
+												        	{
+													            jQuery('.knob-65').val(Math.ceil(this.value)).trigger('change');
+													        }
+												    	})
+											   	}	        	   	        
+									   	        }
+										        ,{
+										          triggerOnce: true,
+										          offset: function(){
+										            return $(window).height() - $(this).outerHeight(); 
+										          }
+										        }
+									        );    
+										});	        
+										</script>
+
+										<div class="skill">
+											<input data-readonly="true"  data-fgcolor="#f68e51" data-inputColor="#333" data-width="245" data-height="122.5" class="knob-65" rel="65" value="0" readonly="readonly" data-angleArc="180" data-angleOffset="-90" data-max="100" >
+											<h4 class="visible-phone">65</h4>
+											<h6>miles run this week</h6>
+										</div>
+									<!-- END CHART N 2 -->
+									</div><!-- /span4 -->
+									
+									
+									<div class="span4">
+									<!-- CHART N 3 -->
+										<script>		
+										jQuery(document).ready(function( $ ) {
+											// Triggering only when it is inside viewport
+											jQuery('.knob-85').waypoint(function(){         		        		        
+												// Triggering now
+										        jQuery('.knob-85').knob();     
+										        // Animating the value
+										        if(jQuery('.knob-85').val() == 0) {	
+											    	jQuery({value: 0}).animate({value: jQuery('.knob-85').attr("rel")}, {
+											        	duration: 5000,
+											        	easing:'swing',
+											        	step: function() 
+												        	{
+													            jQuery('.knob-85').val(Math.ceil(this.value)).trigger('change');
+													        }
+												    	})
+											   	}	        	   	        
+									   	        }
+										        ,{
+										          triggerOnce: true,
+										          offset: function(){
+										            return $(window).height() - $(this).outerHeight(); 
+										          }
+										        }
+									        );    
+										});	        
+										</script>
+
+										<div class="skill">
+											<input data-readonly="true"  data-fgcolor="#2c3e50" data-inputColor="#333" data-width="245" data-height="122.5" class="knob-85" rel="85" value="0" readonly="readonly" data-angleArc="180" data-angleOffset="-90" data-max="100" >
+											<h4 class="visible-phone">85</h4>
+											<h6>new clients this year</h6>
+										</div>
+									<!-- END CHART N 3 -->
+									</div><!-- /span4 -->
+									
+								</div><!-- /row-fluid -->	
+							</div><!-- /span12 -->
+						</div><!-- /row-fluid -->
+					</div><!-- /container -->
+				</section><!-- /section -->
+					
+	</div><!--/CONTAINER-->
+</div><!-- / BG WRAPER-->
+
+</section>
+
+			</section>
+			
 		</div>
 	</div>
 	
